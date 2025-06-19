@@ -10,3 +10,4 @@ int mul(int x, int y)
     }
    return sum;
 }
+///수정₩
