@@ -36,12 +36,14 @@
 
 ### 실행 방법 (예시)
 ![스크린샷1](images/git1.png)
+dev/a 충돌발생
 ![스크린샷1](images/git2.png)
+dev/a 충돌 상세 코드
 ![스크린샷1](images/git3.png)
-dev/c
+dev/c 충돌 수정후 merge
 ![스크린샷1](images/git4.png)
-dev/b
+dev/b 충돌 수정후 merge
 ![스크린샷1](images/git5.png)
-dev/a 브랜치수정
+dev/a 충돌 수정후 merge
 ![스크린샷1](images/git6.png)
 git flow
