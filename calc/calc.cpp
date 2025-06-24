@@ -8,12 +8,16 @@
 #include "mul.h"
 #include "sub.h"
 
+#include <stdlib.h>
+#include <time.h>
 
 int main()
 {
+	srand(time(NULL));
 	int x = 0;
 	int y = 0;
 	int i = 0;
+
 
 	for (; i < 10; i++)
 	{
@@ -25,6 +29,7 @@ int main()
 		}
 		std::cout << "두번째 수를 입력하세요 : ";
 		std::cin >> y;
+
 
 		printf("입력된 수 x[ %d ] y[ %d ]\n", x, y);
 		printf("add[ %d ] sub[ %d ] mul[ %d ] dive[ %d ] mod[ %d ]\n",
